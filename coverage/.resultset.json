@@ -1,0 +1,116 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/vagrant/gazooyr/app/models/user.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        11,
+        11,
+        11,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/gazooyr/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/vagrant/gazooyr/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/gazooyr/app/helpers/gazooies_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/gazooyr/app/helpers/home_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/gazooyr/app/helpers/posts_helper.rb": [
+        1,
+        null
+      ],
+      "/vagrant/gazooyr/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        22,
+        22,
+        22,
+        null,
+        null
+      ],
+      "/vagrant/gazooyr/app/controllers/home_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/vagrant/gazooyr/app/models/gazooy.rb": [
+        1,
+        1,
+        null
+      ],
+      "/vagrant/gazooyr/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/vagrant/gazooyr/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/vagrant/gazooyr/app/controllers/gazooies_controller.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/vagrant/gazooyr/app/controllers/posts_controller.rb": [
+        0,
+        0,
+        0
+      ],
+      "/vagrant/gazooyr/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/vagrant/gazooyr/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/vagrant/gazooyr/app/models/post.rb": [
+        0,
+        0
+      ]
+    },
+    "timestamp": 1499437734
+  }
+}

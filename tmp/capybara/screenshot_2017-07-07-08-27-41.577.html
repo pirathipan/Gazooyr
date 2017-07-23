@@ -1,0 +1,83 @@
+<!DOCTYPE html><html><head>
+    <title>Gazooyr</title>
+    
+	  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="all" href="/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" data-turbolinks-track="reload">
+    <script src="/assets/application-ae2e98daa7e213363bbd8cbd69d6029726b7d4ce94e3d27977eefc387204540f.js" data-turbolinks-track="reload"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+
+      <div class="container">
+        <!--  -->
+
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Gazooyr</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="#">Login</a></li> -->
+              <li><a rel="nofollow" data-method="delete" href="/users/sign_out">logout</a></li>
+              <li>
+                <div class="dropdown">
+                  <a class="btn btn-secondary dropdown-toggle" href="views/devise/registrations/new.html.erb" id="account-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Mon Compte
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a data-method="get" href="/users/edit">Edit</a>
+                    <a class="dropdown-item" href="#"></a>
+                    <a class="dropdown-item" href="#"></a>
+                  </div>
+                </div>
+              </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <h2>Éditer User</h2>
+
+<form class="edit_user" id="edit_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="_method" value="put">
+  
+
+  <div class="field">
+    <label for="user_email">Courriel</label><br>
+    <input type="email" value="test@example.com" name="user[email]" id="user_email">
+  </div>
+
+
+  <div class="field">
+    <label for="user_password">Mot de passe</label> <i>(laissez ce champ vide pour le laisser inchangé)</i><br>
+    <input autocomplete="off" type="password" name="user[password]" id="user_password">
+  </div>
+
+  <div class="field">
+    <label for="user_password_confirmation">Confirmation du mot de passe</label><br>
+    <input type="password" name="user[password_confirmation]" id="user_password_confirmation">
+  </div>
+
+  <div class="field">
+    <label for="user_current_password">Mot de passe actuel</label> <i>(nous avons besoin de votre mot de passe actuel pour valider ces modifications)</i><br>
+    <input type="password" name="user[current_password]" id="user_current_password">
+  </div>
+
+  <div><input type="submit" name="commit" value="Modifier" data-disable-with="Modifier"></div>
+</form>
+<h3>Supprimer mon compte</h3>
+
+<p>Pas content  <a data-confirm="Êtes-vous sûr ?" rel="nofollow" data-method="delete" href="/users">Supprimer mon compte</a>.</p>
+
+<a href="javascript:history.back()">Retour</a>
+
+  
+
+</body></html>
